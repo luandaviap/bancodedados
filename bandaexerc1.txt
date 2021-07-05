@@ -1,0 +1,19 @@
+1. Mostrar o nome e a mensalidade dos alunos, acrescentando 6% a mensalidade
+
+select nome, mensalidade * 6 / 100 + mensalidade from alunos
+
+2. Mostrar o nome e o salário do funcionário , acrescentando 10% ao salário.
+
+select nome, salario * 10 / 100 + salario from funcionarios
+
+3. Mostrar o nome do aluno calculando a média, que seria: (nota1 + nota2) / 2
+
+select nome, media = (nota1 + nota2) / 2 from alunos
+
+4. Mostrar o nome e o valor de um produto , calculando o total que seria: produto * quantidade.
+
+select nome, valor * quantidade from produtos
+
+5. Mostrar o nome e mensalidade dos alunos, subtraindo 50 da mensalidade
+
+select nome, mensalidade - 50 from produtos
